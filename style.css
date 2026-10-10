@@ -1,6 +1,11 @@
-/* Estilos gerais */
+@import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:wght@100..900&display=swap');
+
+:root {
+    --principal: rgb(15, 71, 71);
+    --secundaria: teal;
+}
 body {
-    font-family: Arial, sans-serif;
+    font-family: Exo, sans-serif;
     margin: 0;
     padding: 0;
 
@@ -9,8 +14,8 @@ body {
 
 /* Cabeçalho */
 header {
-    background-color: chartreuse;
-
+    background-color: var(--principal);
+    color: white;
     text-align: center;
     padding: 20px;
 }
